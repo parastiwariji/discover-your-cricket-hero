@@ -4,7 +4,7 @@ function getDetails() {
 
     // Replace 'YOUR_API_KEY' with the provided API key
     var apiKey = '36de9268-dec7-4e23-9a97-cf12c8952257';
-    var apiUrl = `https://cricapi.com/api/playerFinder?apikey=${apiKey}&name=${cricketerName}`;
+    var apiUrl = `https://api.cricapi.com/v1/countries?apikey=36de9268-dec7-4e23-9a97-cf12c8952257&offset=0&name=${cricketerName}`;
 
     // Fetch data from the CricAPI
     fetch(apiUrl)
